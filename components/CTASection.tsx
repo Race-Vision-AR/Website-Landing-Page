@@ -47,27 +47,7 @@ export default function CTASection() {
             </div>
           </div>
 
-          {/* Trust indicators matching design */}
-          <div className="flex flex-wrap justify-center gap-6 text-white/70 text-sm">
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-yellow-300" fill="currentColor" viewBox="0 0 24 24">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-              4.9 Stars on App Store
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0 1 12 2.944a11.955 11.955 0 0 1-8.618 3.04A12.02 12.02 0 0 0 3 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              Verified Safe &amp; Secure
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 0 0-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0" />
-              </svg>
-              50,000+ Active Users
-            </span>
-          </div>
+
         </motion.div>
       </div>
     </section>
