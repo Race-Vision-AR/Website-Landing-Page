@@ -35,7 +35,7 @@ export default function Navbar() {
   const linkColor = scrolled || menuOpen ? "text-gray-700 hover:text-purple-600" : "text-white/90 hover:text-purple-300";
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
+    <nav className={`fixed top-9 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
       <div className="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
