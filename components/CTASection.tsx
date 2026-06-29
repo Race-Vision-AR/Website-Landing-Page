@@ -19,16 +19,12 @@ export default function CTASection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            Ready to Transform{" "}
-            <br />
-            Your Race Day?
+            Get Started
           </h2>
-          <p className="text-white/75 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
-            Join thousands of fans experiencing races in a whole new way. Download
-            Race Vision AR today and make every race unforgettable.
+          <p className="text-white/90 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
+            We are currently seeking a limited number of race directors interested in pilot race opportunities and introductory pricing. Contact Fan Stride to learn more about bringing augmented reality spectator engagement to your upcoming event.
           </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
               href="#"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white font-semibold text-base hover:bg-white hover:text-purple-700 transition-all"
@@ -45,6 +41,17 @@ export default function CTASection() {
               </svg>
               Coming Soon on Android
             </div>
+          </div>
+          <div className="flex justify-center">
+            <a
+              href="mailto:DanielPhillips@FanStride.com"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white text-purple-700 font-semibold text-base hover:bg-white/90 transition-all shadow-lg hover:shadow-xl"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Contact Us
+            </a>
           </div>
 
 

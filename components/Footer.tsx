@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const links: Record<string, { label: string; href: string }[]> = {
   Product: [
     { label: "Features", href: "#features" },
@@ -7,14 +9,14 @@ const links: Record<string, { label: string; href: string }[]> = {
   ],
   Company: [
     { label: "About Us", href: "#about" },
-    { label: "Careers", href: "#" },
+    { label: "Careers", href: "/careers" },
     { label: "Press", href: "#" },
-    { label: "Contact", href: "mailto:Contact@RaceVisionAR.com" },
+    { label: "Contact", href: "mailto:DanielPhillips@FanStride.com" },
   ],
   Resources: [
     { label: "Documentation", href: "#" },
-    { label: "Support", href: "mailto:Contact@RaceVisionAR.com" },
-    { label: "Privacy Policy", href: "#" },
+    { label: "Support", href: "mailto:DanielPhillips@FanStride.com" },
+    { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "#" },
   ],
 };
@@ -52,16 +54,21 @@ export default function Footer() {
           {/* Brand block */}
           <div className="mb-8">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 flex items-center justify-center flex-shrink-0">
-                <span className="text-white text-xs font-black tracking-tighter">RV</span>
+              <div className="relative w-16 h-16 flex-shrink-0">
+                <Image
+                  src="/White - Logo.png"
+                  alt="Fan Stride Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="font-bold text-white text-lg">Race Vision AR</span>
+              <span className="font-bold text-white text-lg">Fan Stride</span>
             </div>
             <p className="text-sm leading-relaxed mb-2">
               Transforming race day into an interactive AR experience for fans worldwide.
             </p>
-            <a href="mailto:Contact@RaceVisionAR.com" className="text-sm text-purple-400 hover:text-purple-300 transition-colors mb-4 inline-block">
-              Contact@RaceVisionAR.com
+            <a href="mailto:DanielPhillips@FanStride.com" className="text-sm text-purple-400 hover:text-purple-300 transition-colors mb-4 inline-block">
+              DanielPhillips@FanStride.com
             </a>
             <div className="flex gap-3">
               {socialIcons.map(({ key, svg }) => (
@@ -96,16 +103,21 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 flex items-center justify-center">
-                <span className="text-white text-xs font-black tracking-tighter">RV</span>
+              <div className="relative w-16 h-16 flex-shrink-0">
+                <Image
+                  src="/White - Logo.png"
+                  alt="Fan Stride Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="font-bold text-white text-lg">Race Vision AR</span>
+              <span className="font-bold text-white text-lg">Fan Stride</span>
             </div>
             <p className="text-sm leading-relaxed">
               Transforming race day into an interactive AR experience for fans worldwide.
             </p>
-            <a href="mailto:Contact@RaceVisionAR.com" className="text-sm text-purple-400 hover:text-purple-300 transition-colors">
-              Contact@RaceVisionAR.com
+            <a href="mailto:DanielPhillips@FanStride.com" className="text-sm text-purple-400 hover:text-purple-300 transition-colors">
+              DanielPhillips@FanStride.com
             </a>
             <div className="flex gap-3 pt-2">
               {socialIcons.map(({ key, svg }) => (
@@ -135,7 +147,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 text-center md:text-left">
-          <p className="text-sm">© 2025 Race Vision AR. All rights reserved.</p>
+          <p className="text-sm">© 2025 Fan Stride LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
