@@ -51,10 +51,10 @@ export default function HeroSection() {
           transition={{ delay: 0.4 }}
           className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-tight mb-5"
         >
-          See The Story Behind{" "}
+          For the Fan.{" "}
           <br className="hidden sm:block" />
           <span className="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
-            Every Runner
+            Fueling the Runner.
           </span>
         </motion.h1>
 
@@ -62,11 +62,9 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="text-base sm:text-lg text-white/80 mb-8 max-w-xl mx-auto leading-relaxed"
+          className="text-base sm:text-lg text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          Race Vision AR transforms race day into an interactive experience.
-          Point your camera at any runner to discover their story, support
-          their cause, and cheer them on in real-time.
+          Bringing spectators, athletes, and race directors together through augmented reality.
         </motion.p>
 
         <motion.div

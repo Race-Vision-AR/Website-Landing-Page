@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Features", href: "#features" },
@@ -39,16 +40,22 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 flex items-center justify-center flex-shrink-0">
-            <span className="text-white text-xs font-black tracking-tighter">RV</span>
+          <div className="relative w-16 h-16 flex-shrink-0">
+            <Image
+              src={scrolled || menuOpen ? "/Logo.png" : "/White - Logo.png"}
+              alt="Fan Stride Logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
           {scrolled || menuOpen ? (
             <span className="font-bold text-lg tracking-tight bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              Race Vision AR
+              Fan Stride
             </span>
           ) : (
             <span className="font-bold text-lg tracking-tight text-white">
-              Race Vision AR
+              Fan Stride
             </span>
           )}
         </div>

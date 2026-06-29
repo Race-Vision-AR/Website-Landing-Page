@@ -11,7 +11,7 @@ const cards = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    body: "Race Vision AR exists to make endurance sports more interactive, more engaging, and more connected by giving spectators the ability to recognize, support, and celebrate athletes in real time through augmented reality.",
+    body: "Fan Stride exists to make endurance sports more interactive, more engaging, and more connected by giving spectators the ability to recognize, support, and celebrate athletes in real time through augmented reality.",
   },
   {
     label: "Our Vision",
@@ -39,10 +39,10 @@ export default function MissionSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            What Is Race Vision AR?
+            What Is Fan Stride?
           </h2>
           <p className="text-gray-500 text-lg max-w-3xl mx-auto leading-relaxed">
-            Race Vision AR is an augmented reality app that allows spectators to point their phone
+            Fan Stride is an augmented reality app that allows spectators to point their phone
             camera at runners during a race and instantly see an AR overlay with their name, social
             media handle, and charity information. It increases spectator engagement, helps athletes
             build content and followers, and gives race directors a new technology experience to
@@ -59,7 +59,7 @@ export default function MissionSection() {
           className="text-center mb-14"
         >
           <p className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 bg-clip-text text-transparent max-w-3xl mx-auto leading-snug">
-            Race Vision AR turns race day into a live augmented reality experience where spectators
+            Fan Stride turns race day into a live augmented reality experience where spectators
             can instantly identify runners, cheer them by name, and support their charity.
           </p>
         </motion.div>

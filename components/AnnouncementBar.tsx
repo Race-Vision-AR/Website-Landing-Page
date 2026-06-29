@@ -4,7 +4,7 @@ export default function AnnouncementBar() {
       <span className="font-medium">Coming Soon</span>
       <span className="mx-2 opacity-60">—</span>
       <a
-        href="mailto:Contact@RaceVisionAR.com"
+        href="mailto:DanielPhillips@FanStride.com"
         className="underline underline-offset-2 hover:text-white/80 transition-colors"
       >
         Contact us for details

@@ -7,7 +7,7 @@ const steps = [
   {
     number: "01",
     title: "Open the App",
-    desc: "Launch Race Vision AR at any supported race event and allow camera access.",
+    desc: "Launch Fan Stride at any supported race event and allow camera access.",
   },
   {
     number: "02",
@@ -81,7 +81,7 @@ export default function HowItWorksSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/how-it-works.png"
-                alt="Fan using Race Vision AR at a race"
+                alt="Fan using Fan Stride at a race"
                 width={600}
                 height={450}
                 className="w-full object-cover"
