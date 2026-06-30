@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fan Stride — For the Fan. Fueling the Runner.",
+  title: "Fan Stride - For the Fan. Fueling the Runner.",
   description:
     "Bringing spectators, athletes, and race directors together through augmented reality. Point your camera at any runner to see their story, support their cause, and cheer them on in real-time.",
   keywords: [
@@ -37,11 +37,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://fanstride.com",
-    title: "Fan Stride — For the Fan. Fueling the Runner.",
+    title: "Fan Stride - For the Fan. Fueling the Runner.",
     description:
       "Bringing spectators, athletes, and race directors together through augmented reality. Point your camera at any runner to see their story, support their cause, and cheer them on in real-time.",
     siteName: "Fan Stride",
@@ -56,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fan Stride — For the Fan. Fueling the Runner.",
+    title: "Fan Stride - For the Fan. Fueling the Runner.",
     description:
       "Bringing spectators, athletes, and race directors together through augmented reality.",
     images: ["/Logo.png"],

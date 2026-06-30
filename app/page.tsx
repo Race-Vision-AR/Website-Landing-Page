@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ScreenshotsSection from "@/components/ScreenshotsSection";
 import RaceDayVideosSection from "@/components/RaceDayVideosSection";
+import RunClubSection from "@/components/RunClubSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import ARPreviewSection from "@/components/ARPreviewSection";
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <ScreenshotsSection />
         <RaceDayVideosSection />
+        <RunClubSection />
         <FeaturesSection />
         <HowItWorksSection />
         <ARPreviewSection />

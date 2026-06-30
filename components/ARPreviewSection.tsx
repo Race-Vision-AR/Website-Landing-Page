@@ -30,13 +30,13 @@ function ARCard({
           <p className="text-white font-bold text-sm leading-tight">{name}</p>
           <p className="text-[#8ec5ff] text-xs mt-0.5">{bib}</p>
         </div>
-        {/* LIVE badge — outlined blue pill matching design */}
+        {/* LIVE badge - outlined blue pill matching design */}
         <span className="flex-shrink-0 border border-blue-400 text-blue-300 text-[10px] font-semibold px-1.5 py-0.5 rounded mt-0.5 tracking-wide">
           LIVE
         </span>
       </div>
 
-      {/* Instagram handle + Follow — merged pink-transparent block */}
+      {/* Instagram handle + Follow - merged pink-transparent block */}
       <div
         className="mx-3 my-2 rounded-lg px-2.5 py-2 flex flex-col justify-between gap-2 "
         style={{ background: "rgba(236, 72, 153, 0.18)" }}
@@ -55,7 +55,7 @@ function ARCard({
         </button>
       </div>
 
-      {/* Charity row — "Donate" in white underline */}
+      {/* Charity row - "Donate" in white underline */}
       <div className="px-3 pb-2 flex items-center justify-between gap-1">
         <p className="text-[#dab2ff] text-[10px] truncate">
           Running for:{" "}
@@ -159,7 +159,7 @@ export default function ARPreviewSection() {
               className="rounded-[2rem] overflow-hidden shadow-[0_24px_60px_rgba(0,0,0,0.28)]"
               style={{ border: "5px solid #1a1a2e" }}
             >
-              {/* Camera viewport — taller portrait ratio */}
+              {/* Camera viewport - taller portrait ratio */}
               <div className="relative overflow-hidden" style={{ aspectRatio: "9/14" }}>
                 <Image
                   src="/hero-bg.png"

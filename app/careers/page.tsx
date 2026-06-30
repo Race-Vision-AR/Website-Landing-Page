@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Careers — Fan Stride",
+  title: "Careers - Fan Stride",
   description: "Career opportunities at Fan Stride. Join our team bringing augmented reality to race day.",
   openGraph: {
-    title: "Careers — Fan Stride",
+    title: "Careers - Fan Stride",
     description: "Career opportunities at Fan Stride. Join our team bringing augmented reality to race day.",
     url: "https://fanstride.com/careers",
     type: "website",

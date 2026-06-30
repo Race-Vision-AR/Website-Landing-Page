@@ -22,7 +22,7 @@ const cards = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
       </svg>
     ),
-    body: "To become the leading augmented reality engagement platform for endurance events — bridging the gap between athletes, spectators, charities, and sponsors.",
+    body: "To become the leading augmented reality engagement platform for endurance events - bridging the gap between athletes, spectators, charities, and sponsors.",
   },
 ];
 
