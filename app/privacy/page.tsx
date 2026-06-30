@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Fan Stride",
+  title: "Privacy Policy - Fan Stride",
   description: "Privacy Policy for Fan Stride mobile application and website.",
   openGraph: {
-    title: "Privacy Policy — Fan Stride",
+    title: "Privacy Policy - Fan Stride",
     description: "Privacy Policy for Fan Stride mobile application and website.",
     url: "https://fanstride.com/privacy",
     type: "website",
