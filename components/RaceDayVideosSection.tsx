@@ -138,7 +138,7 @@ export default function RaceDayVideosSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-4xl mx-auto"
+          className="max-w-sm sm:max-w-md lg:max-w-4xl mx-auto"
         >
           <div className="text-center mb-8">
             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
@@ -149,11 +149,39 @@ export default function RaceDayVideosSection() {
             </p>
           </div>
 
-          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black group">
+          {/* Mobile: portrait format */}
+          <div className="relative aspect-[9/16] lg:hidden rounded-2xl overflow-hidden shadow-2xl bg-black group">
             <video
               ref={fullDemoRef}
               src="/media 5 mile FanStride.mov"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
+              controls
+              playsInline
+              onPlay={() => setIsFullDemoPlaying(true)}
+              onPause={() => setIsFullDemoPlaying(false)}
+            />
+            
+            {/* Custom play button overlay (only shows when not playing) */}
+            {!isFullDemoPlaying && (
+              <button
+                onClick={handleFullDemoPlayPause}
+                className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-black/40 to-black/60 group-hover:from-black/50 group-hover:to-black/70 transition-all duration-300"
+              >
+                <div className="w-20 h-20 rounded-full bg-white/95 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+                  <svg className="w-10 h-10 text-purple-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </button>
+            )}
+          </div>
+
+          {/* Desktop: landscape format */}
+          <div className="relative aspect-video hidden lg:block rounded-2xl overflow-hidden shadow-2xl bg-black group">
+            <video
+              ref={fullDemoRef}
+              src="/media 5 mile FanStride.mov"
+              className="w-full h-full object-contain"
               controls
               playsInline
               onPlay={() => setIsFullDemoPlaying(true)}
